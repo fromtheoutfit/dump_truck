@@ -95,6 +95,7 @@ class Dump_truck_model
         array_push($where_in, 0);
 
         $this->EE->db->select('tab_name, header, content');
+        $this->EE->db->where('site_id', $this->site_id);
         $this->EE->db->where_in('member_group', $where_in);
         $this->EE->db->order_by('id', 'desc');
 
