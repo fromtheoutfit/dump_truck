@@ -1,0 +1,6 @@
+.DS_Store
+.DS\_Store
+*
+!system/expressionengine/third_party/dump_truck
+!README.md
+!.gitignore
